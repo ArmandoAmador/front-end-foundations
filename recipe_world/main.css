@@ -9,14 +9,17 @@ body {
 }
 
 h1 {
+  color: #7facaa;
   margin: 10px 0 15px 0;
 }
 
 h2 {
+  color: #7facaa;
   margin: 10px 0 20px 0;
 }
 
 h3 {
+  color: #7facaa;
   margin: 15px 0 15px 0;
   border-bottom: 1px solid #CCCCCC;
   padding-bottom: 3px;
@@ -30,25 +33,36 @@ ol {
   padding: 0 0 0 50px;
 }
 
-p {
-  text-decoration: underline;
-  color: red;
+.nav {
+  padding-left: 0;
 }
 
-ul li {
-  font-size: 24px;
+.nav li {
   display: inline;
 }
 
-a {
+.nav a {
+  color: #0000af;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-  color: darkred;
+.recipes {
+  list-style-type: none;
+  padding: 0;
 }
 
-ol li:first-child {
-  color: red;
+.recipes li {
+  border: 1px solid #b56663;
+  padding-left: 15px;
+  margin-bottom: 10px;
 }
+
+.recipes h3 {
+  border-bottom: 0;
+}
+
+.recipes a {
+  color: #7facaa;
+  text-decoration: none;
+}
+
