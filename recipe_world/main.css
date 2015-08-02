@@ -93,6 +93,11 @@ ol {
   text-decoration: none;
 }
 
+.recipes img {
+  float: left;
+  padding-right: 10px;
+}
+
 .photos {
   list-style-type: none;
   padding: 0;

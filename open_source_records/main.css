@@ -95,6 +95,10 @@ ol {
   background-color: #ffffff;
 }
 
+.album img {
+  float: right;
+}
+
 .bands-list {
   list-style-type: none;
   padding-left: 0;
@@ -113,6 +117,12 @@ ol {
 .bands-list li {
   border: 1px solid #555555;
   background-color: #ffffff;
+  height: 120px;
+}
+
+.bands-list img {
+  float: left;
+  padding-right: 15px;
 }
 
 .header img {
@@ -120,15 +130,16 @@ ol {
   display: block;
 }
 
+.recording-now {
+  width: 440px;
+  height: 200px;
+  background: #ffffff url(images/prependers-recording.jpg) center center no-repeat;
+  border: 1px solid #ee932a;
+  padding: 4px 4px 4px 4px;
+}
+
 .recording-now p {
   color: #ffffff;
   font-size: 28px;
 }
 
-.recording-now {
-  width: 440px;
-  height: 200px;
-  background: #ffffff url(images/prependers-recording.jpg) center center no-repeat;
-  border: 1px solid;
-  padding: 4px;
-}
