@@ -44,6 +44,11 @@ ol {
   color: #ffffff;
 }
 
+.header img {
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
 .main-content {
   width: 500px;
   padding: 20px 20px 20px 20px;
@@ -84,5 +89,15 @@ ol {
 .recipes a {
   color: #7facaa;
   text-decoration: none;
+}
+
+.photos {
+  list-style-type: none;
+  padding: 0;
+}
+
+.photos li {
+  display: inline;
+  padding-left: 11px;
 }
 
