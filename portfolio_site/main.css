@@ -8,18 +8,22 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
   font-size: 100%;
 }
 
-h1 {
+body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 70px;
-  font-weight: bold;
+}
+
+h1, h2, h3 {
   text-align: center;
 }
 
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
 h2 {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 100;
-  text-align: center;
   color: #ffffff;
   width: 700px;
   margin: 0 auto;
@@ -30,21 +34,17 @@ h2 strong {
 }
 
 h3 {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 28px;
   font-weight: normal;
-  text-align: center;
   border-bottom: 1px solid #555555;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
 }
 
 p {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
 }
 
 a {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
@@ -62,7 +62,7 @@ a:hover {
 
 .tagline {
   background-color: #000000;
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
 }
 
 .projects, .badges, .articles, .skills {
@@ -88,7 +88,6 @@ a:hover {
 }
 
 .skills li {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
   background-color: #444444;
   color: #cccccc;
